@@ -2,9 +2,7 @@
 
 ![Philosophers Visualizer](img/img1.png)
 
-**To use, you might need to add fflush(stdout) to your philosophers output to flush the buffer after each line.**
-
-**To launch:**
+## Compilation and launch 🚀
 **1. Clone this repo into your philo project: philo/visualizer (or any other folder name):**
 ```bash
 git clone https://github.com/dmitrijslasko/42_philosophers_visualizer visualizer
@@ -21,3 +19,4 @@ The output of your philosophers' program will go into the visualizer through a p
 It will pick up the number of philosophers automatically on the go.
 
 **Ensure your output matches the format specified in the subject PDF!**
+**You might need to add fflush(stdout) to your philosophers output to flush the buffer after each line.**
