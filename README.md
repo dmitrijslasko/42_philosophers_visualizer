@@ -1,5 +1,7 @@
 **Simple visualizer for School 42 Philosophers project, written in C + Raylib.**
 
+![Philosophers Visualizer](img/img1.png)
+
 To use, you need to add fflush(stdout) to your philosophers output to flush the buffer after each line.
 
 **To launch:**
