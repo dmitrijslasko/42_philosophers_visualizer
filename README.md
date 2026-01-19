@@ -19,4 +19,5 @@ The output of your philosophers' program will go into the visualizer through a p
 It will pick up the number of philosophers automatically on the go.
 
 **Ensure your output matches the format specified in the subject PDF!**
+
 **You might need to add fflush(stdout) to your philosophers output to flush the buffer after each line.**
