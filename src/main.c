@@ -194,7 +194,7 @@ int visualise_table(t_data *data)
 		WINDOW_H
 	};
 
-	Texture2D table_img = LoadTexture("visualizer/assets/table1.png");
+	Texture2D table_img = LoadTexture("visualizer/assets/table.png");
 	Rectangle table_src = { 0, 0, table_img.width, table_img.height };
 	Rectangle table_dest = {
 		WINDOW_W / 2 + TABLE_X_OFFSET,
@@ -312,7 +312,7 @@ int visualise_table(t_data *data)
 			// meals count
 			Color textColor = status == SLEEPING ? YELLOW : WHITE;
 			const char *meals_count = TextFormat("%d", data->philos[i].meals_count);
-			textWidth = MeasureText(meals_count, fontSize);
+			textWidth = MeasureText(meals_count, 26);
 			DrawText(
 				meals_count,
 				pos.x - textWidth / 2 + TABLE_X_OFFSET,            // center X
