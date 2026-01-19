@@ -1,5 +1,7 @@
 **Simple visualizer for School 42 Philosophers project, written in C + Raylib.**
 
+**Written and tested on MacOS.**
+
 ![Philosophers Visualizer](img/img1.png)
 
 ## Compilation and launch 🚀
