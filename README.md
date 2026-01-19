@@ -14,7 +14,7 @@ After this step, it has to be here: <root>/philo/visualizer.
 ```bash
 make -C visualizer
 ```
-**3. Launch:**
+**3. Launch with your parameters:**
 ```bash
 ./philo <10> <800> <200> <200> | ./visualizer/visualizer
 ```
